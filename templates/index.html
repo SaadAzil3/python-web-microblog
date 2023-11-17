@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>MicroBlog</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav__brand">
+            <img class="navbar_logo" src="../static/icons8-minecraft-logo.svg" alt="">Microblog
+        </div>
+        <ul class="navbar_navigation">
+            <li class="navbar_navigation_item">
+                <a href="#" class="navbar_link">
+                    Recent
+                </a>
+            </li>
+            <li class="navbar_navigation_item">
+                <a href="#" class="navbar_link">
+                    Calendar
+                </a>
+            </li>
+            <li class="navbar_navigation_item">
+                <a href="#" class="navbar_link">
+                    About
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h1>Add new entry</h1>
+            <form action="/adminSaadAzil3" class="form" method="post">
+                <p class="form_input">
+                    <label for="entry" class="form_label">Title: </label>
+                    <input type="text" name="title" id="">
+                    <label for="entry" class="form_label">Entry contents: </label>
+                    <textarea name="content" id="entry" class="form_textarea"></textarea>
+                    
+                </p>
+                <button type="submit" class="form_submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_content">
+            <section class="left">
+                <a href="" class="footer_item">Made By Saad Azil</a>
+                <a href="" class="footer_item">Check out my other projects</a>
+            </section>
+            <section class="right">
+                <div class="footer_column">
+                    <a href="" class="footer_item">Recent</a>
+                    <a href="" class="footer_item">Calendar</a>
+                </div>
+                <div class="footer_column">
+                    <a href="" class="footer_item">About</a>
+                    <a href="" class="footer_item">How this was made</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
